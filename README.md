@@ -114,7 +114,7 @@ Use this [project presentation template](https://docs.google.com/presentation/d/
 >
 > Used [React.js](https://reactjs.org/) Open-source JavaScript library for building user interfaces.
 >
-> Used [React Bootstrap](https://react-bootstrap.github.io/) Open-source JavaScript library for customizing React.
+> Used [Ant Design](https://ant.design/components/overview/) Open-source JavaScript library for customizing React.
 >
 > Used [Firebase](https://firebase.google.com/docs) A secure login platform.
 
