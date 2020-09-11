@@ -2,10 +2,6 @@
   <!-- <div align='center'>
     <img height="32" width="32" style="vertical-align:center;margin:4px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/npm.svg" /img><img  height="32" width="32" padding-left="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/visualstudiocode.svg" style="vertical-align:center; margin:5px" </img> </div> -->
 
-<!-- ## 💡 Project Overview
-
-Welcome to **Project 2!** This is yet another important milestone in your full-stack journey: designing and building your first full-stack web application. You and your team will design and build an app using the MVC paradigm and your own server-side API. You will also continue to add to your professional repertoire with testing, continuous integration and linting tools. -->
-
 ## ✨ User Story
 
 ```
@@ -60,6 +56,10 @@ So that I can shop efficiently
   - Must meet good quality coding standards (indentation, scoping, naming)
 
   - Must not expose sensitive API key information on the server
+
+  - Must use MERN stack
+
+  - Must use a CSS framework _other than_ Bootstrap
 
 ## Presentation Requirements
 
