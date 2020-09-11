@@ -39,25 +39,27 @@ So that I can shop efficiently
 
 - **Application Requirements**
 
-  - Must use a Node and Express server
+  - Must use ReactJS in some way (even if minimal)
 
-  - Must use Handlebars.js as the template engine or React.js
+  - Must use a Node and Express Web Server
 
-  - Must be backed by a MySQL database with a Sequelize ORM
+  - Must be backed by a MySQL or MongoDB Database with a Sequelize or Mongoose ORM
 
-  - Must utilize both GET and POST routes for retrieving and adding new data
+  - Must have both GET and POST routes for retrieving and adding new data
 
-  - Must be deployed using Heroku (with data)
+  - Must be deployed using Heroku (with Data)
 
-  - Must utilize at least one new library, package, or technology that we haven’t discussed
+  - Must utilize at least two libraries, packages, or technologies that we haven’t discussed
 
-  - Must have a polished front end/UI
+  - Must allow for or involve the authentication of users in some way
 
-  - Must have a folder structure that meets the MVC paradigm
+  - Must have a polished frontend/UI
+
+  - Must have folder structure that meets MVC Paradigm
 
   - Must meet good quality coding standards (indentation, scoping, naming)
 
-  - Must protect API keys in Node with environment variables
+  - Must not expose sensitive API key information on the server
 
 - **Presentation Requirements**
 
@@ -114,7 +116,7 @@ So that I can shop efficiently
 >
 > Used [React Bootstrap](https://react-bootstrap.github.io/) Open-source JavaScript library for customizing React.
 >
-> Used [Firebase](https://auth0.com/) A secure login platform.
+> Used [Firebase](https://firebase.google.com/docs) A secure login platform.
 
 ## 📽️ The following animation demonstrates the application's functionality:
 
@@ -152,6 +154,16 @@ So that I can shop efficiently
   </tr>
 
 </table>
+
+## <img src="Assets/peerCoders.gif" width="30px"> Grading Metrics
+
+| Metric        | Weight |
+| ------------- | ------ |
+| Concept       | 10%    |
+| Design        | 20%    |
+| Functionality | 30%    |
+| Collaboration | 30%    |
+| Presentation  | 10%    |
 
 <h1 align='center'>PHASE ONE</h1>
   <!-- <div align='center'>
