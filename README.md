@@ -1,4 +1,159 @@
-<h1 align='center'>Project 2</h1>
+<h1 align='center'>BAGIT PHASE TWO</h1>
+  <!-- <div align='center'>
+    <img height="32" width="32" style="vertical-align:center;margin:4px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/npm.svg" /img><img  height="32" width="32" padding-left="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/visualstudiocode.svg" style="vertical-align:center; margin:5px" </img> </div> -->
+
+<!-- ## 💡 Project Overview
+
+Welcome to **Project 2!** This is yet another important milestone in your full-stack journey: designing and building your first full-stack web application. You and your team will design and build an app using the MVC paradigm and your own server-side API. You will also continue to add to your professional repertoire with testing, continuous integration and linting tools. -->
+
+## ✨ User Story
+
+```
+As a Shopper
+I want to keep an ongoing grocery list
+that will be able to organize based on categories
+So that I can shop efficiently
+```
+
+## 💡 MVP from PHASE ONE
+
+- Select From Drop down categories of new item
+- Pull Up a grocery list by category and add all it items
+
+## 🔥 PHASE TWO
+
+- Easily Add or Remove from Shopping List to Completed(Inventory/ Necessity or User Defined )
+- Favorites List
+- Change Authentication
+- Improve UI
+
+## 💡 NICE TO HAVE
+
+- Price Checker
+- UPC Scanner
+- Pool Nearby Prices
+- Frequently Bought (Suggested based on frequency)
+- Timer for Predictably used items
+
+## ⚓ Minimum Requirements
+
+- **Application Requirements**
+
+  - Must use a Node and Express server
+
+  - Must use Handlebars.js as the template engine or React.js
+
+  - Must be backed by a MySQL database with a Sequelize ORM
+
+  - Must utilize both GET and POST routes for retrieving and adding new data
+
+  - Must be deployed using Heroku (with data)
+
+  - Must utilize at least one new library, package, or technology that we haven’t discussed
+
+  - Must have a polished front end/UI
+
+  - Must have a folder structure that meets the MVC paradigm
+
+  - Must meet good quality coding standards (indentation, scoping, naming)
+
+  - Must protect API keys in Node with environment variables
+
+- **Presentation Requirements**
+
+  - Use this [project presentation template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit?usp=sharing) to address the following:
+
+  - Elevator pitch: a one minute description of your application
+
+  - Concept: What is your user story? What was your motivation for development?
+
+  - Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
+
+  - Demo: Show your stuff!
+
+  - Directions for Future Development
+
+  - Links to to the deployed application and the GitHub repository
+
+## 🌟 Visuals & Diagrams:
+
+<details>
+<summary>WireFrame Diagram (click to view/collapse)</summary>
+1 of 4
+<img src="Assets/Project2_callbackCats.PNG">
+</details>
+<details>
+<summary>Swimlane Diagram (click to view/collapse)</summary>
+2 of 4
+<img src="Assets/ImgSwimLine.png">
+</details>
+<details>
+<summary>Database Schema Diagram (click to view/collapse)</summary>
+3 of 4
+<img src="Assets/ImgSchema.png">
+</details>
+<details>
+<summary>Components Diagram (click to view/collapse)</summary>
+4 of 4
+<img src="Assets/ImgComponents.png">
+</details>
+
+## 📦 Setup and Instructions
+
+> ### Live Link : [BagIt](https://bagit-and-tagit.herokuapp.com/)
+
+### Tools & Packages
+
+> Used [Express](https://expressjs.com/) Express is a minimal and flexible Node.js web application framework.
+>
+> Used [MySQL](https://www.npmjs.com/package/mysql) NPM package to connect to your MySQL database and perform queries.
+>
+> Used [Sequelize](https://sequelize.org/) Promise-based Node.js ORM for Postgres, MySQL.
+>
+> Used [React.js](https://reactjs.org/) Open-source JavaScript library for building user interfaces.
+>
+> Used [React Bootstrap](https://react-bootstrap.github.io/) Open-source JavaScript library for customizing React.
+>
+> Used [Firebase](https://auth0.com/) A secure login platform.
+
+## 📽️ The following animation demonstrates the application's functionality:
+
+![Employee Tracker](Assets/employee-tracker.gif)
+
+## <img src="Assets/settings.gif" width="30px"> Contributor(s)
+
+<table>
+  <tr>
+  <td align="center">
+  <a href=""><img src="https://avatars2.githubusercontent.com/u/60550803?s=460&u=a2f0357ccc7cb5cb28bc61350651a44bd42d54b7&v=4" width="100px;" /><br /><sub><b>Jordan Neill</b></sub></a><br />
+   <a href="https://github.com/jordanalexis6"><img src="./Assets/github.svg" width="20px;" alt=""></a>
+   <a href="https://www.linkedin.com/in/jordan-neill-a48b681a0/"><img src="./Assets/linkedin.svg" width="20px;" alt=""></a>
+    <details>
+      <summary style="font-size:10px"><b>Click<b> to view More</summary>
+
+[![Github Stats By Anurag](https://github-readme-stats.vercel.app/api?username=jordanalexis6&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/anuraghazra/github-readme-stats)
+
+  </details>
+
+  </td>
+
+  <td align="center"><a href=""><img src="https://avatars1.githubusercontent.com/u/60417041?s=460&u=c0bb5f5315117d28d8304e62488ccfc8df112263&v=4" width="100px;" /><br /><sub><b>Kevin Holder</b></sub></a><br />
+   <a href="https://github.com/kholder777"><img src="./Assets/github.svg" width="20px;" alt=""></a>
+   <a href="https://www.linkedin.com/in/kevin-holder-25476788/"><img src="./Assets/linkedin.svg" width="20px;" alt=""></a>
+    <details>
+      <summary style="font-size:10px"><b>Click<b> to view More</summary>
+
+[![Github Stats By Anurag](https://github-readme-stats.vercel.app/api?username=kholder777&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/anuraghazra/github-readme-stats)
+
+  </details>
+
+  </td>
+
+  </tr>
+
+</table>
+
+<h1 align='center'>PHASE ONE</h1>
   <!-- <div align='center'>
     <img height="32" width="32" style="vertical-align:center;margin:4px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/npm.svg" /img><img  height="32" width="32" padding-left="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/visualstudiocode.svg" style="vertical-align:center; margin:5px" </img> </div> -->
 
