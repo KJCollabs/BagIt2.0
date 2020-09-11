@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "273b3d8f-00d9-4194-9c98-5473bef8541b",
+		"name": "BagIt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ActiveItems",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BagItURL}}items/active",
+					"host": [
+						"{{BagItURL}}items"
+					],
+					"path": [
+						"active"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InactiveItems",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BagItURL}}items/inactive",
+					"host": [
+						"{{BagItURL}}items"
+					],
+					"path": [
+						"inactive"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllItems",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BagItURL}}items/all",
+					"host": [
+						"{{BagItURL}}items"
+					],
+					"path": [
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllCategories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BagItURL}}categories/all",
+					"host": [
+						"{{BagItURL}}categories"
+					],
+					"path": [
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BagItURL}}users/all",
+					"host": [
+						"{{BagItURL}}users"
+					],
+					"path": [
+						"all"
+					],
+					"query": [
+						{
+							"key": "user_name",
+							"value": "Sam",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNewUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_name",
+							"value": "Testuser{{I}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BagItURL}}users/create",
+					"host": [
+						"{{BagItURL}}users"
+					],
+					"path": [
+						"create"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "889aa599-4ec8-4ff8-8d43-4a16fc12c300",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "5beefbdc-028b-4ce1-a38f-4568629b9d51",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
