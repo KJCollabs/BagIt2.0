@@ -1,4 +1,5 @@
-<h1 align='center'>BAGIT PHASE TWO</h1>
+<h1 align='center'>BagIt</h1> 
+<h3 align='center'>Phase Two</h3>
   <!-- <div align='center'>
     <img height="32" width="32" style="vertical-align:center;margin:4px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/npm.svg" /img><img  height="32" width="32" padding-left="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/visualstudiocode.svg" style="vertical-align:center; margin:5px" </img> </div> -->
 
@@ -11,19 +12,20 @@ that will be able to organize based on categories
 So that I can shop efficiently
 ```
 
-## 💡 MVP from PHASE ONE
+## 💡 MVP from Phase One
 
 - Select From Drop down categories of new item
 - Pull Up a grocery list by category and add all it items
+- [Link to Phase One Repository](https://github.com/The-CallBack-Cats/BagIt)
 
-## 🔥 PHASE TWO
+## 🔥 Phase Two
 
 - Easily Add or Remove from Shopping List to Completed(Inventory/ Necessity or User Defined )
 - Favorites List
 - Change Authentication
 - Improve UI
 
-## 💡 NICE TO HAVE
+## 💡 Nice to have
 
 - Price Checker
 - UPC Scanner
@@ -102,7 +104,7 @@ Use this [project presentation template](https://docs.google.com/presentation/d/
 
 ## 📦 Setup and Instructions
 
-> ### Live Link : [BagIt](https://bagit-and-tagit.herokuapp.com/)
+> ### Live Link : [BagIt2.0](https://bagit2.herokuapp.com/)
 
 ### Tools & Packages
 
