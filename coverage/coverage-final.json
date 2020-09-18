@@ -1,1 +1,2 @@
-{}
+{"/Users/jordanneill/Github/BagIt2.0/controllers/utils/utils.js": {"path":"/Users/jordanneill/Github/BagIt2.0/controllers/utils/utils.js","statementMap":{"0":{"start":{"line":1,"column":17},"end":{"line":1,"column":27}},"1":{"start":{"line":1,"column":23},"end":{"line":1,"column":27}},"2":{"start":{"line":3,"column":0},"end":{"line":3,"column":32}}},"fnMap":{"0":{"name":"(anonymous_0)","decl":{"start":{"line":1,"column":17},"end":{"line":1,"column":18}},"loc":{"start":{"line":1,"column":23},"end":{"line":1,"column":27}},"line":1}},"branchMap":{},"s":{"0":1,"1":1,"2":1},"f":{"0":1},"b":{},"_coverageSchema":"43e27e138ebf9cfc5966b082cf9a028302ed4184","hash":"b34fa8e196949da620bc84e0028968d55681dcf0"}
+}
