@@ -15,8 +15,8 @@ const Auth0ProviderWithHistory = ({ children }) => {
     Api.getAuth0().then((results) => {
       console.log(results);
       setAuth0({
-        clientId: results.clientId,
-        domain: results.domain,
+        clientId: results.data.clientId,
+        domain: results.data.domain,
       });
     });
   }, []);
