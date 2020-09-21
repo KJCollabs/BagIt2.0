@@ -26,21 +26,21 @@ const Auth0ProviderWithHistory = ({ children }) => {
   };
 
   return (
-    <Auth0Provider
-      domain={
-        auth0.domain.length > 0 ? auth0.domain : "dev-bvb5jton.us.auth0.com"
-      }
-      clientId={
-        auth0.clientId.length > 0
-          ? auth0.clientId
-          : "VFhcLbHAAYYoc2fVEzBzEK7RO4E7ah9Q"
-      }
-      redirectUri={window.location.origin}
-      onRedirectCallback={onRedirectCallback}
-    >
-      {console.log(auth0)}
-      {children}
-    </Auth0Provider>
+    <>
+      {auth0.domain.length > 0 && auth0.clientId.length > 0 ? (
+        <Auth0Provider
+          domain={auth0.domain}
+          clientId={auth0.clientId}
+          redirectUri={window.location.origin}
+          onRedirectCallback={onRedirectCallback}
+        >
+          {console.log(auth0)}
+          {children}
+        </Auth0Provider>
+      ) : (
+        "no login"
+      )}
+    </>
   );
 };
 
