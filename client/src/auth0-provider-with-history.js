@@ -13,7 +13,6 @@ const Auth0ProviderWithHistory = ({ children }) => {
 
   useEffect(() => {
     Api.getAuth0().then((results) => {
-      console.log(results);
       setAuth0({
         clientId: results.data.clientId,
         domain: results.data.domain,
@@ -26,14 +25,20 @@ const Auth0ProviderWithHistory = ({ children }) => {
   };
 
   return (
-    <Auth0Provider
-      domain={auth0.domain}
-      clientId={auth0.clientId}
-      redirectUri={window.location.origin}
-      onRedirectCallback={onRedirectCallback}
-    >
-      {children}
-    </Auth0Provider>
+    <>
+      {auth0.domain.length > 0 && auth0.clientId.length > 0 ? (
+        <Auth0Provider
+          domain={auth0.domain}
+          clientId={auth0.clientId}
+          redirectUri={window.location.origin}
+          onRedirectCallback={onRedirectCallback}
+        >
+          {children}
+        </Auth0Provider>
+      ) : (
+        "no login"
+      )}
+    </>
   );
 };
 
