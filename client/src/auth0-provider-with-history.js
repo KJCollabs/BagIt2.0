@@ -32,6 +32,7 @@ const Auth0ProviderWithHistory = ({ children }) => {
       redirectUri={window.location.origin}
       onRedirectCallback={onRedirectCallback}
     >
+      {console.log(auth0)}
       {children}
     </Auth0Provider>
   );
