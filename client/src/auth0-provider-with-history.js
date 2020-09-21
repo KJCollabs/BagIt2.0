@@ -13,7 +13,6 @@ const Auth0ProviderWithHistory = ({ children }) => {
 
   useEffect(() => {
     Api.getAuth0().then((results) => {
-      console.log(results);
       setAuth0({
         clientId: results.data.clientId,
         domain: results.data.domain,
@@ -34,7 +33,6 @@ const Auth0ProviderWithHistory = ({ children }) => {
           redirectUri={window.location.origin}
           onRedirectCallback={onRedirectCallback}
         >
-          {console.log(auth0)}
           {children}
         </Auth0Provider>
       ) : (
