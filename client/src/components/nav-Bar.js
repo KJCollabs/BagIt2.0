@@ -7,7 +7,7 @@ import LogoutButton from "./logoutButton";
 import LoginButton from "./loginButton";
 
 const MainNav = () => (
-	<Nav className="mr-auto">
+	<Navbar className="mr-auto">
 		<Nav.Link
 			as={RouterNavLink}
 			to="/"
@@ -33,7 +33,7 @@ const MainNav = () => (
 		>
 			Currentlist
 		</Nav.Link>
-	</Nav>
+	</Navbar>
 );
 
 const AuthNav = () => {
