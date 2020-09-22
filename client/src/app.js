@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { Container } from "react-bootstrap";
+import { Container } from "@blueprintjs/core";
+
 import { NavBar, Loading, PrivateRoute } from "./components";
 import { Home, Profile, Currentlist } from "./views";
 import { useAuth0 } from "@auth0/auth0-react";
