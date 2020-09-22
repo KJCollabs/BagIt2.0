@@ -16,6 +16,7 @@ const MainNav = () => (
 		>
 			Home
 		</Nav.Link>
+
 		<Nav.Link
 			as={RouterNavLink}
 			to="/profile"
