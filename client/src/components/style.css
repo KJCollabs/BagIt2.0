@@ -3,9 +3,11 @@ body {
   color: black;
   text-align: center;
 }
+
 .app-logo {
   color: rgb(84, 84, 84);
 }
+
 #departmentContainer {
   justify-content: space-around;
   background-color: rgb(51, 51, 94);
@@ -16,33 +18,40 @@ body {
   margin-bottom: 20px;
   padding: 20px;
 }
+
 #addItem {
-  margin: 10px;
+  /* margin: 10px;
   margin-bottom: 14px;
   border: green;
-  background-color: green;
+  background-color: green; */
 }
+
 select {
   border-radius: 5px;
   background-color: rgb(182, 182, 182);
   padding: 5px;
 }
+
 .itemBar {
   color: black;
   border-radius: 0.5em;
   background-color: rgb(142, 142, 142);
 }
+
 div.row {
   text-align: left;
   justify-content: center;
   align-items: center;
 }
+
 .form-control {
   margin-bottom: 20px;
 }
+
 .checkBox {
   padding-left: 20px;
 }
+
 .indItem {
   margin: auto;
 }

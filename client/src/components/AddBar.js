@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Form, Button } from "@blueprintjs/core";
+import { FormGroup, InputGroup } from "@blueprintjs/core";
 
 import "./style.css";
+import { FormGroup } from "react-bootstrap";
 
 function AddBar(props) {
 	const [dropdownOpen, setOpen] = useState(false);
@@ -10,13 +11,16 @@ function AddBar(props) {
 	return (
 		<div>
 			<header>
-				<Form.Control
-					type="text"
-					placeholder="Add Item"
-					name="item"
+				<FormGroup
+					helperText="Helper text with details..."
+					label="Label A"
+					labelFor="text-input"
+					labelInfo="(required)"
 					value={props.item}
 					onChange={props.changeText}
-				/>
+				>
+					<InputGroup id="text-input" placeholder="Placeholder text" />
+				</FormGroup>
 				<h6>Select Category </h6>
 				<select
 					name="dropDownValue"
@@ -34,7 +38,13 @@ function AddBar(props) {
 						  })
 						: ""}
 				</select>
-				<Button id="addItem" onClick={props.handleSave}>
+				\
+				{/* search button on blueprint and convert that
+				im also on the blueprint website too so i can see what your doing  */}
+				<Button
+					class=".bp3-intent-success .bp3-minimal .bp3-outline bp3-button bp3-icon-add"
+					onClick={props.handleSave}
+				>
 					Add Item
 				</Button>
 			</header>
