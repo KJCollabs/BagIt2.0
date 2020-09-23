@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FormGroup, InputGroup } from "@blueprintjs/core";
+import { FormGroup, InputGroup, Button } from "@blueprintjs/core";
 
 import "./style.css";
 import { FormGroup } from "react-bootstrap";
@@ -38,9 +38,7 @@ function AddBar(props) {
 						  })
 						: ""}
 				</select>
-				\
-				{/* search button on blueprint and convert that
-				im also on the blueprint website too so i can see what your doing  */}
+
 				<Button
 					class=".bp3-intent-success .bp3-minimal .bp3-outline bp3-button bp3-icon-add"
 					onClick={props.handleSave}
