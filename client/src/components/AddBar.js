@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FormGroup, InputGroup, Button } from "@blueprintjs/core";
 
 import "./style.css";
-import { FormGroup } from "react-bootstrap";
 
 function AddBar(props) {
 	const [dropdownOpen, setOpen] = useState(false);
