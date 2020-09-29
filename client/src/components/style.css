@@ -3,8 +3,8 @@
 @import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
 
 body {
-  background-color: rgb(106, 105, 105);
-  color: black;
+  background-color: black;
+  color: rgb(70, 70, 70);
   text-align: center;
 }
 
@@ -12,9 +12,13 @@ body {
   color: rgb(84, 84, 84);
 }
 
+.bp3-input {
+  background-color: rgb(182, 182, 182);
+}
+
 #departmentContainer {
   justify-content: space-around;
-  background-color: rgb(51, 51, 94);
+  background-color: rgb(114, 194, 123);
   border-radius: 0.5rem;
   border-color: darkgray;
   border-width: 5rem;
