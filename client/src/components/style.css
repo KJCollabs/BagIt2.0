@@ -22,7 +22,7 @@ a {
 
 #departmentContainer {
   justify-content: space-around;
-  background-color: rgb(114, 194, 123);
+  background-color: rgba(125, 220, 136, 0.81);
   border-radius: 0.5rem;
   border-color: darkgray;
   border-width: 5rem;
