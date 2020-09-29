@@ -10,14 +10,14 @@ function AddBar(props) {
     <div>
       <header>
         <FormGroup
-          helperText="Helper text with details..."
-          label="Label A"
+          // helperText="Helper text with details..."
+          label="Add Item"
           labelFor="text-input"
-          labelInfo="(required)"
+          // labelInfo="(required)"
           value={props.item}
           onChange={props.changeText}
         >
-          <InputGroup id="text-input" placeholder="Placeholder text" />
+          <InputGroup id="text-input" placeholder="Grocery Item" />
         </FormGroup>
         <h6>Select Category </h6>
         <select
@@ -38,7 +38,7 @@ function AddBar(props) {
         </select>
 
         <Button
-          class=".bp3-intent-success .bp3-minimal .bp3-outline bp3-button bp3-icon-add"
+          class="bp3-intent-success bp3-minimal bp3-outline bp3-button bp3-icon-add"
           onClick={props.handleSave}
         >
           Add Item
