@@ -8,6 +8,10 @@ body {
   text-align: center;
 }
 
+a {
+  color: black;
+}
+
 .app-logo {
   color: rgb(84, 84, 84);
 }
@@ -27,11 +31,8 @@ body {
   padding: 20px;
 }
 
-#addItem {
-  /* margin: 10px;
-  margin-bottom: 14px;
-  border: green;
-  background-color: green; */
+.navbar {
+  color: black;
 }
 
 select {
