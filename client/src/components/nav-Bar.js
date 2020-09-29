@@ -49,7 +49,7 @@ const AuthNav = () => {
 
 const NavBar = () => {
   return (
-    <Navbar bg="light" expand="md">
+    <Navbar bg="dark" expand="md">
       <Container>
         <Navbar.Brand as={RouterNavLink} className="logo" to="/" />
         <MainNav />
