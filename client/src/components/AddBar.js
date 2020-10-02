@@ -13,10 +13,13 @@ function AddBar(props) {
 					labelInfo="(required)"
 					labelFor="text-input"
 					value={props.item}
-					onChange={props.changeText}
 					style={{ marginBottom: "0.5em" }}
 				>
-					<InputGroup id="text-input" placeholder="Grocery Item" />
+					<InputGroup
+						id="text-input"
+						placeholder="Grocery Item"
+						onChange={props.changeText}
+					/>
 				</FormGroup>
 				<h6>Select Category </h6>
 				<select
