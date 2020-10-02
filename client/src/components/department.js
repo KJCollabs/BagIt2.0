@@ -16,7 +16,7 @@ function Department() {
     <Container id="departmentContainer">
       <h4
         style={{
-          size: "200%",
+          fontSize: "250%",
           height: "100%",
         }}
       >
