@@ -14,7 +14,14 @@ function Department() {
   }, []);
   return (
     <Container id="departmentContainer">
-      <h4>*Department Name*</h4>
+      <h4
+        style={{
+          size: "200%",
+          height: "100%",
+        }}
+      >
+        Grocery List
+      </h4>
       {/* needs to know based on what the user picks in the drop down */}
       {/* {DepartmentName} here... with hook? */}
       {result.map((currentItem) => {
