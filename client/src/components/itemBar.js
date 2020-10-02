@@ -6,9 +6,8 @@ function ItemBar(props) {
   return (
     <FormGroup
       style={{
-        size: "200%",
+        fontSize: "200%",
         height: "100%",
-        fontFamily: "monospace",
         textAlign: "left",
       }}
     >
