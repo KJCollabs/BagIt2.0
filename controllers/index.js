@@ -7,7 +7,7 @@ router.use("/api", apiRoutes);
 
 // If no API routes are hit, send the React app
 router.use(function (req, res) {
-	console.log(req.url, req.originalUrl);
+	// TODO console.log(req.url, req.originalUrl);
 	//didn't find a valid route. sending home for new product
 	// if (process.env.NODE_ENV === "production") {
 	res.sendFile(path.join(__dirname, "../client/build/index.html"));

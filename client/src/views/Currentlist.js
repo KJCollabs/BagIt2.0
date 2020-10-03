@@ -36,7 +36,7 @@ function Currentlist() {
 		};
 		API.createItem(newItem).then((results) => {
 			// console.log(results);
-			//update state to render new stuff
+			//TODO update state to render new stuff
 			// window.location.reload();
 		});
 	};
@@ -55,7 +55,7 @@ function Currentlist() {
 				{array.map((DeptArray) => {
 					return <Department key={DeptArray} />;
 				})}
-				{/* Array of departments. Map departments too. Look into props.*/}
+				{/* TODO Array of departments. Map departments too. Look into props.*/}
 			</Auth0ProviderWithHistory>
 		</div>
 	);
