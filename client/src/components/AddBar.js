@@ -33,7 +33,8 @@ function AddBar(props) {
 						? props.categories.map((category) => {
 								return (
 									<option key={category.id}>
-										{category.id + ". " + category.category_name}
+										{/*Removed the following from inside the {} from the next line down: category.id + ". " +  */}
+										{category.category_name}
 									</option>
 								);
 						  })
