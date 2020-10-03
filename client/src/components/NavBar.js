@@ -8,37 +8,33 @@ import LoginButton from "./loginButton";
 // still need to modify a few more things. Here's the link to the site for Blueprint Nav: https://blueprintjs.com/docs/#core/components/navbar.fixed-to-viewport-top
 const MainNav = () => (
 	<Nav className="mr-auto">
-		<button class="bp3-button bp3-minimal bp3-icon-home">Home</button>
-		{/* <Nav.Link
-      as={RouterNavLink}
-      to="/"
-      exact
-      activeClassName="router-link-exact-active"
-    >
-      Home
-    </Nav.Link> */}
+		<Nav.Link
+			as={RouterNavLink}
+			to="/"
+			exact
+			activeClassName="router-link-exact-active"
+		>
+			<button class="bp3-button bp3-minimal bp3-icon-home">Home</button>
+		</Nav.Link>
 
-		<button class="bp3-button bp3-minimal bp3-icon-user">Profile</button>
-		{/* <Nav.Link
-      as={RouterNavLink}
-      to="/profile"
-      exact
-      activeClassName="router-link-exact-active"
-    >
-      Profile
-    </Nav.Link> */}
-
-		<button class="bp3-button bp3-minimal bp3-icon-document">
-			CurrentList
-		</button>
-		{/* <Nav.Link
-      as={RouterNavLink}
-      to="/currentlist"
-      exact
-      activeClassName="router-link-exact-active"
-    >
-      Currentlist
-    </Nav.Link> */}
+		<Nav.Link
+			as={RouterNavLink}
+			to="/profile"
+			exact
+			activeClassName="router-link-exact-active"
+		>
+			<button class="bp3-button bp3-minimal bp3-icon-user">Profile</button>
+		</Nav.Link>
+		<Nav.Link
+			as={RouterNavLink}
+			to="/currentlist"
+			exact
+			activeClassName="router-link-exact-active"
+		>
+			<button class="bp3-button bp3-minimal bp3-icon-document">
+				CurrentList
+			</button>
+		</Nav.Link>
 	</Nav>
 );
 
