@@ -47,6 +47,9 @@ a {
   padding: 0;
   box-shadow: none;
 }
+.bp3-navbar-group.bp3-align-left {
+  padding-left: 10px;
+}
 
 select {
   border-radius: 5px;
