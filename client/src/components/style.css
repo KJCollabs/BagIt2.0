@@ -47,7 +47,9 @@ a {
 .bp3-button-text {
   color: white;
 }
-
+.bp3-button[class*="bp3-icon-"]::before {
+  color: black;
+}
 .bp3-navbar-group.bp3-align-left {
   padding-left: 10px;
 }
