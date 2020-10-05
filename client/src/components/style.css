@@ -19,7 +19,19 @@ a {
 .bp3-input {
   background-color: rgb(182, 182, 182);
 }
-
+.logButton {
+  margin-left: 150%;
+}
+.login {
+  width: 100px;
+  margin-top: 10px;
+  background-color: green;
+}
+.logout {
+  width: 100px;
+  margin-top: 10px;
+  background-color: red;
+}
 #departmentContainer {
   justify-content: space-around;
   background-color: rgba(125, 220, 136, 0.81);
@@ -30,9 +42,10 @@ a {
   margin-bottom: 20px;
   padding: 20px;
 }
-
-.navbar {
-  color: black;
+.bp3-navbar {
+  background-color: rgb(131, 131, 131);
+  padding: 0;
+  box-shadow: none;
 }
 
 select {
