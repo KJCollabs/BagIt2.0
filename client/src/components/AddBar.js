@@ -30,7 +30,6 @@ function AddBar(props) {
           onChange={props.changeValue}
           style={{ marginBottom: "0.5em" }}
         >
-          {console.log(props.categories, "categories")}
           {props.categories.length > 0
             ? props.categories.map((category) => {
                 return (
