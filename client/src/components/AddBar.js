@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button } from "react-bootstrap";
+import { FormGroup, InputGroup, Button } from "@blueprintjs/core";
 import "./style.css";
 
 function AddBar(props) {
@@ -9,19 +9,26 @@ function AddBar(props) {
   return (
     <div>
       <header>
-        <Form.Control
-          type="text"
-          placeholder="Add Item"
-          name="item"
+        <FormGroup
+          labelInfo="(required)"
+          labelFor="text-input"
           value={props.item}
-          onChange={props.changeText}
-        />
+          style={{ marginBottom: "0.5em" }}
+        >
+          <InputGroup
+            id="text-input"
+            placeholder="Grocery Item"
+            onChange={props.changeText}
+            value={props.item}
+          />
+        </FormGroup>
         <h6>Select Category </h6>
         <select
           name="dropDownValue"
           id="dropDown"
           value={props.dropDownValue}
           onChange={props.changeValue}
+          style={{ marginBottom: "0.5em" }}
         >
           {props.categories.length > 0
             ? props.categories.map((category) => {
@@ -33,7 +40,12 @@ function AddBar(props) {
               })
             : ""}
         </select>
-        <Button id="addItem" onClick={props.handleSave}>
+
+        <Button
+          className="bp3-intent-success bp3-minimal bp3-outline bp3-button bp3-icon-add"
+          onClick={props.handleSave}
+          style={{ marginBottom: "0.5em" }}
+        >
           Add Item
         </Button>
       </header>

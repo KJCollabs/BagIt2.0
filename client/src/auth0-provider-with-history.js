@@ -36,7 +36,7 @@ const Auth0ProviderWithHistory = ({ children }) => {
           {children}
         </Auth0Provider>
       ) : (
-        "no login"
+        " "
       )}
     </>
   );

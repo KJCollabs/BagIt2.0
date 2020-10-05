@@ -1,6 +1,39 @@
+
+CREATE DATABASE bagIt2_DB;
 -- Set the DB
 USE bagIt2_DB;
 
+CREATE TABLE User
+(
+	id int NOT NULL AUTO_INCREMENT,
+	user_name varchar(25) NOT NULL,
+	createdAt varchar(25) NOT NULL,
+	updatedAt varchar(25) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE Category
+(
+	id int NOT NULL AUTO_INCREMENT,
+	category_name varchar(25) NOT NULL,
+	createdAt varchar(25) NOT NULL,
+	updatedAt varchar(25) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE items
+(
+	id int NOT NULL AUTO_INCREMENT,
+	items_name varchar(25) NOT NULL,
+	active BOOLEAN DEFAULT false,
+	shopped BOOLEAN DEFAULT false,
+	fav BOOLEAN DEFAULT false,
+	CategoryId varchar(25) NOT NULL,
+	UserId varchar(25) NOT NULL,
+    createdAt varchar(25) NOT NULL,
+	updatedAt varchar(25) NOT NULL,
+	PRIMARY KEY (id)
+);
 -- Set default values for date fields 
 ALTER TABLE `Category` MODIFY COLUMN `createdAt` DATETIME NOT NULL DEFAULT NOW
 ();

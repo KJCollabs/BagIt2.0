@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@auth0/auth0-react": "^1.0.0",
+    "@blueprintjs/core": "^3.31.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -49,6 +50,6 @@
     "react-scripts": "3.4.3",
     "react-sticky-footer": "0.1.0-rc3",
     "sequelize": "^5.8.9",
-    "yarn": "^1.22.4"
+    "yarn": "^1.22.5"
   }
 }

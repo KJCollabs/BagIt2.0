@@ -1,14 +1,37 @@
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+
 body {
-  background-color: rgb(106, 105, 105);
-  color: black;
+  background-color: black;
+  color: white;
   text-align: center;
+}
+a {
+  color: black;
 }
 .app-logo {
   color: rgb(84, 84, 84);
 }
+.bp3-input {
+  background-color: rgb(182, 182, 182);
+}
+.logButton {
+  margin-left: 150%;
+}
+.login {
+  width: 100px;
+  margin-top: 10px;
+  background-color: green;
+}
+.logout {
+  width: 100px;
+  margin-top: 10px;
+  background-color: red;
+}
 #departmentContainer {
   justify-content: space-around;
-  background-color: rgb(51, 51, 94);
+  background-color: rgba(125, 220, 136, 0.81);
   border-radius: 0.5rem;
   border-color: darkgray;
   border-width: 5rem;
@@ -16,11 +39,19 @@ body {
   margin-bottom: 20px;
   padding: 20px;
 }
-#addItem {
-  margin: 10px;
-  margin-bottom: 14px;
-  border: green;
-  background-color: green;
+.bp3-navbar {
+  background-color: rgb(131, 131, 131);
+  padding: 0;
+  box-shadow: none;
+}
+.bp3-button-text {
+  color: white;
+}
+.bp3-button[class*="bp3-icon-"]::before {
+  color: black;
+}
+.bp3-navbar-group.bp3-align-left {
+  padding-left: 10px;
 }
 select {
   border-radius: 5px;

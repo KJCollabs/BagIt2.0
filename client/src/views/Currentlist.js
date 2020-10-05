@@ -7,7 +7,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 function Currentlist() {
   const { user } = useAuth0();
-  const array = [1];
+  const [array, setArray] = useState([1]);
   const [categories, setCategories] = useState([]);
   const [dropDownValue, setDropDownValue] = useState("");
   const [item, setItem] = useState("");
@@ -16,20 +16,22 @@ function Currentlist() {
       setCategories(results.data.categories);
     });
   }, []);
-
+  useEffect(() => {
+    API.getAllItems()
+      .then((res) => setArray(res.data.items))
+      .catch((err) => console.log(err));
+  }, []);
   const changeValue = (event) => {
     const { name, value } = event.target;
-
     setDropDownValue(value);
   };
   const changeText = (event) => {
     const { name, value } = event.target;
-
     setItem(value);
   };
 
   const handleSave = (event) => {
-    const id = dropDownValue.split(" ")[0];
+    const id = dropDownValue.split(". ")[0];
     const newItem = {
       categoryId: id,
       item: item,
@@ -37,8 +39,11 @@ function Currentlist() {
       email: user.email,
     };
     API.createItem(newItem).then((results) => {
-      console.log(results);
-      window.location.reload();
+      API.getAllItems().then((response) => {
+        console.log(response.data.items);
+        setArray(response.data.items);
+        setItem("");
+      });
     });
   };
   return (
@@ -52,11 +57,7 @@ function Currentlist() {
         changeText={changeText}
       />
       <Auth0ProviderWithHistory>
-        {/* //map this department */}
-        {array.map((DeptArray) => {
-          return <Department key={DeptArray} />;
-        })}
-        {/* Array of departments. Map departments too. Look into props.*/}
+        <Department array={array} />
       </Auth0ProviderWithHistory>
     </div>
   );

@@ -4,7 +4,7 @@ var db = require("../../models");
 router.get("/all", function (req, res) {
 	// replace old function with sequelize function
 	db.Category.findAll({})
-		// use promise method to pass the userlist...
+		// TODO use promise method to pass the userlist...
 		.then(function (dbcategory) {
 			// into the main index, updating the page
 
