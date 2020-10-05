@@ -57,7 +57,7 @@ function Currentlist() {
         changeText={changeText}
       />
       <Auth0ProviderWithHistory>
-        <Department array={array} />;
+        <Department array={array} />
       </Auth0ProviderWithHistory>
     </div>
   );
