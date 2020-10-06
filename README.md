@@ -1,7 +1,5 @@
 <h1 align='center'>BagIt</h1> 
 <h3 align='center'>Phase Two</h3>
-  <!-- <div align='center'>
-    <img height="32" width="32" style="vertical-align:center;margin:4px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/npm.svg" /img><img  height="32" width="32" padding-left="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/visualstudiocode.svg" style="vertical-align:center; margin:5px" </img> </div> -->
 
 ## ✨ User Story
 
@@ -14,20 +12,21 @@ So that I can shop efficiently
 
 ## 💡 MVP from Phase One
 
-- Select From Drop down categories of new item
-- Pull Up a grocery list by category and add all it items
+- Select from drop down categories of new item
+- Pull up a grocery list by category and add all it items
 - [Link to Phase One Repository](https://github.com/The-CallBack-Cats/BagIt)
 
 ## 🔥 Phase Two
 
-- Easily Add or Remove from Shopping List to Completed(Inventory/ Necessity or User Defined )
-- Favorites List
-- Change Authentication
+- Easily Add to Shopping List without having to refresh
+- Fix Authentication
 - Improve UI
+- Add test driven development
+- [Link to BagIt 2.0](https://bagit2.herokuapp.com/)
 
 ## 💡 Nice to have
 
-- Price Checker
+- Favorites List
 - UPC Scanner
 - Pool Nearby Prices
 - Frequently Bought (Suggested based on frequency)
@@ -116,9 +115,13 @@ Use this [project presentation template](https://docs.google.com/presentation/d/
 >
 > Used [React.js](https://reactjs.org/) Open-source JavaScript library for building user interfaces.
 >
-> Used [Ant Design](https://ant.design/components/overview/) Open-source JavaScript library for customizing React.
+> Used [Blueprint UI](https://blueprintjs.com/docs/) Open-source JavaScript library for customizing React.
 >
-> Used [Firebase](https://firebase.google.com/docs) A secure login platform.
+> Used [Auth0](https://auth0.com/docs/) A secure login platform.
+>
+> Used [CirleCi](https://circleci.com/) modern continuous integration and continuous delivery (CI/CD) platform.
+>
+> Used [Code Climate](https://codeclimate.com/) provides automated code review for test coverage, maintainability and more so that you can save time and merge with confidence.
 
 ## 📽️ The following animation demonstrates the application's functionality:
 
