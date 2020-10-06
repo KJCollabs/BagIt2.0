@@ -7,28 +7,35 @@ body {
   color: white;
   text-align: center;
 }
+
 a {
   color: black;
 }
+
 .app-logo {
   color: rgb(84, 84, 84);
 }
+
 .bp3-input {
   background-color: rgb(182, 182, 182);
 }
+
 .logButton {
-  margin-left: 150%;
+  margin: auto;
 }
+
 .login {
   width: 100px;
   margin-top: 10px;
   background-color: green;
 }
+
 .logout {
   width: 100px;
   margin-top: 10px;
   background-color: red;
 }
+
 #departmentContainer {
   justify-content: space-around;
   background-color: rgba(125, 220, 136, 0.81);
@@ -39,41 +46,51 @@ a {
   margin-bottom: 20px;
   padding: 20px;
 }
+
 .bp3-navbar {
   background-color: rgb(131, 131, 131);
   padding: 0;
   box-shadow: none;
 }
+
 .bp3-button-text {
   color: white;
 }
+
 .bp3-button[class*="bp3-icon-"]::before {
   color: black;
 }
+
 .bp3-navbar-group.bp3-align-left {
   padding-left: 10px;
 }
+
 select {
   border-radius: 5px;
   background-color: rgb(182, 182, 182);
   padding: 5px;
 }
+
 .itemBar {
   color: black;
   border-radius: 0.5em;
   background-color: rgb(142, 142, 142);
 }
+
 div.row {
   text-align: left;
   justify-content: center;
   align-items: center;
 }
+
 .form-control {
   margin-bottom: 20px;
 }
+
 .checkBox {
   padding-left: 20px;
 }
+
 .indItem {
   margin: auto;
 }
